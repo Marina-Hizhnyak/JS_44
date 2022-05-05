@@ -8,8 +8,8 @@
 // Вставка разметки на экран
 // Работа с хранилищем
 
-import { createForm } from './scripts/createForm.js';
-import { createList } from './scripts/createList.js';
+// import { createForm } from './scripts/createForm.js';
+// import { createList } from './scripts/createList.js';
 
 
 // import player from 'addres-toplayer';
@@ -38,3 +38,10 @@ import { createList } from './scripts/createList.js';
 //     createForm();
 //     createList();
 // })
+import { createForm } from "./scripts/createForm.js"
+import { createList } from "./scripts/createList"
+
+addEventListener("DOMContentLoaded", () => {
+  createForm()
+  createList()  
+})
